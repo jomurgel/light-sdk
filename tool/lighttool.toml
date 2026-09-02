@@ -1,10 +1,10 @@
 [tool]
-id = "com.thelightphone.app"
-label = "Light SDK Tool"
+id = "com.jomurgel.pocketcasts"
+label = "Pocket Casts"
 versionCode = 1
-versionName = "1.0.0"
-permissions = ["android.permission.INTERNET"]
-capabilities = []
+versionName = "0.1.0"
+permissions = ["android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE"]
+capabilities = ["detached-audio"]
+orientation = "portrait"
 # change if you run this on an LP3!
-# serverPackage = "com.lightos"
 serverPackage = "com.thelightphone.sdk.emulator"
